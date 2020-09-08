@@ -83,7 +83,6 @@ img {
 
 .skills li {
     list-style-type: none;
-    padding: 10px;
 }
 
 i {
@@ -151,7 +150,7 @@ i {
     }
 
     #sidenav {
-        width: 20vw;
+        width: 23vw;
     }
 
     #main-body {
@@ -170,6 +169,14 @@ i {
 
     .work-item h4{
         line-height: 1;
+    }
+
+    h1 {
+        font-size: 2.6em;
+    }
+
+    h2 {
+        font-size: 1.8em;
     }
 
 }
