@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    font-family: "Kumbh Sans", Arial, Helvetica, sans-serif;
+  }
+
+body {
+    margin: 0;
+}
+
+header, footer {
+    padding: 80px;
+    background-color: whitesmoke;
+}
+
+footer {
+    padding: 65px;
+}
+
+h1 {
+    color: firebrick;
+    font-size: 5em;
+}
+
+h2 {
+    color: dimgrey
+}
+
+h3, h4 {
+    color: darkgray;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+p, li {
+    font-size: 1.25em;
+}
+
+img {
+    border: 1px solid;
+    display: inline-block;
+    max-width: 25%;
+    margin: 20px;
+}
+
+.summary, .skills, .work-experience, .projects {
+    padding: 50px;
+    padding-right: 20%;
+    border-bottom: solid whitesmoke 5px;
+}
+
+.work-duration {
+    color: firebrick;
+    font-style: italic;
+}
+
+.project-article:not(:last-child) { 
+    border-bottom: 2px solid whitesmoke; 
+}
+
+.work-item {
+    border-bottom: 2px solid whitesmoke; 
+}
+
+.work-item h4{
+    line-height: 0;
+}
+
+.proj-desc {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.skills li {
+    list-style-type: none;
+    padding: 10px;
+}
+
+i {
+    padding: 12px;
+    color: firebrick;
+}
+
+#experience-heading {
+    padding-bottom: 8px;
+}
+
+#tech-skills {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    list-style-position: inside;
+}
+
+#tech-skills li {
+    padding-left: 40px;
+}
+
+#sidenav {
+    background-color: firebrick;
+    height: 100%;
+    width: 15%;
+    position: fixed;
+    z-index: 1;
+    padding-top: 20px;
+}
+
+#sidenav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+    font-size: 1.35em;
+}
+
+#sidenav a:hover {
+    color: black;
+}
+
+#main-body {
+    padding-left: 15%;
+}
+
+#space {
+    color: white;
+}
+
+#sidenav ul {
+    list-style-type: none;
+    position: absolute;
+    bottom: 0;
+}
+
+#sidenav ul li {
+    display: inline-block;
+}
