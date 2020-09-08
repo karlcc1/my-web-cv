@@ -5,6 +5,7 @@
 
 body {
     margin: 0;
+    font-size: 16px;
 }
 
 header, footer {
@@ -142,4 +143,33 @@ i {
 
 #sidenav ul li {
     display: inline-block;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 12px;
+    }
+
+    #sidenav {
+        width: 20vw;
+    }
+
+    #main-body {
+        padding-left: 20vw;
+    }
+
+    #tech-skills {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+
+    header, footer {
+        padding: 6vw;
+    }
+
+    .work-item h4{
+        line-height: 1;
+    }
+
 }
