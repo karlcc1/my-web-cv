@@ -73,10 +73,6 @@ img {
     border-bottom: 2px solid whitesmoke; 
 }
 
-.work-item h4{
-    line-height: 0;
-}
-
 .proj-desc {
     display: inline-block;
     vertical-align: top;
@@ -120,9 +116,6 @@ i {
 
 #sidenav.active {
     left: 0;
-    h1 {
-        color: black;
-    }
 }
 
 #sidenav a {
@@ -162,7 +155,7 @@ i {
 
 #hamburger {
     color: white;
-    font-size: 35px;
+    font-size: 3em;
     float: right;
     cursor: pointer;
     position: absolute;
@@ -177,11 +170,8 @@ i {
     }
 
     #sidenav {
-        width: 25vw;
-    }
-
-    #main-body {
-        padding-left: 20vw;
+        width: 26%;
+        left: -26%;
     }
 
     #tech-skills {
@@ -194,10 +184,6 @@ i {
         padding: 6vw;
     }
 
-    .work-item h4{
-        line-height: 1;
-    }
-
     h1 {
         font-size: 2.6em;
     }
@@ -206,4 +192,26 @@ i {
         font-size: 1.8em;
     }
 
+    img {
+        max-width: 85%;
+    }
+
+    /* body {
+        background-color: blue;
+    } */
+
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 600px) {
+    body {
+        background-color: pink;
+    }
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+    body{
+        background-color: black;
+    }    
+} */

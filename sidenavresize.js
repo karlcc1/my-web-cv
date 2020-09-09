@@ -1,11 +1,8 @@
-function hamburgclick() {
-    document.getElementById("sidenav").classList.toggle("active");
-    document.getElementById("main-body").classList.toggle("active");
-}
-
 function myFunction(x) {
     if (x.matches) { // If media query matches
-      hamburgclick();
+      document.body.style.backgroundColor = "yellow";
+    } else {
+     document.body.style.backgroundColor = "pink";
     }
   }
   
