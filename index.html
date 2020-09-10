@@ -7,6 +7,11 @@
         <link rel="stylesheet" type="text/css" href="main.css">
         <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap" rel="stylesheet">
         <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <script
+            src="https://code.jquery.com/jquery-3.5.1.js"
+            integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+            crossorigin="anonymous"></script>
+        <!-- <script src="onepagscroll.js"></script> -->
         <script src="main.js"></script>
     </head>
     <body>
@@ -14,10 +19,12 @@
         <div id="sidenav">
             <i class="fas fa-bars 9x" id="hamburger" onclick="hamburgclick()"></i>
             <div>
-                <a href="#section-summary">Summary</a>
-                <a href="#section-skills">Skills</a>
-                <a href="#section-experience">Experience</a>
-                <a href="#section-projects">Projects</a>
+                <ul class="menu" id="menu">
+                    <li class="active"><a href="#section-summary">Summary</a></li>
+                    <li><a href="#section-skills">Skills</a></li>
+                    <li><a href="#section-experience">Experience</a></li>
+                    <li><a href="#section-projects">Projects</a></li>
+                </ul>
             </div>
 
             <ul>
@@ -127,7 +134,8 @@
 
             <footer>
                 <script src="main.js"></script>
-                <!-- <script src="sidenavresize.js"></script> -->
+                <script src="onepagscroll.js"></script>    
+                <!-- <script src="mqtest.js"></script> -->
             </footer>
         </div>
     </body>

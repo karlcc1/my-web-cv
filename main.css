@@ -127,6 +127,10 @@ i {
 }
 
 #sidenav a:hover {
+    color: black    ;
+}
+
+#sidenav li.active a {
     color: black;
 }
 
@@ -137,10 +141,6 @@ i {
 
 #main-body.active {
     padding-left: 15%;
-}
-
-#space {
-    color: white;
 }
 
 #sidenav ul {
@@ -162,6 +162,11 @@ i {
     left: 100%;
     top: 0%;
     background-color: firebrick;
+}
+
+#sidenav #nav {
+    top: 0;
+    padding-left: 0%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -203,11 +208,20 @@ i {
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-/* @media only screen and (min-width: 600px) {
-    body {
-        background-color: pink;
+@media only screen and (min-width: 600px) and (max-width: 940px){
+    #sidenav {
+        width: 25%;
+        left: -25%;
     }
-} */
+
+    #hamburger {
+        font-size: 25px;
+    }
+
+    #sidenav ul li {
+        display: block;
+    }
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
 /* @media only screen and (min-width: 992px) {
