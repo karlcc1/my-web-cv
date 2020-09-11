@@ -3,8 +3,6 @@ function hamburgclick() {
     document.getElementById("main-body").classList.toggle("active");
 }
 
-
-
 function mqchange(x) {
     if (x.matches) { // If media query matches
       hamburgclick();

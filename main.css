@@ -164,11 +164,19 @@ i {
     background-color: firebrick;
 }
 
-#sidenav #nav {
+#sidenav #menu {
     top: 0;
-    padding-left: 0%;
+    max-width: 14%;
 }
 
+h6 {
+    margin: 0;
+    position: relative;
+    left: -30px;
+    font-size: 0.8em;
+}
+
+/* Small devices (smartphones, portrait tablets) */
 @media only screen and (max-width: 600px) {
     body {
         font-size: 12px;
@@ -200,14 +208,9 @@ i {
     img {
         max-width: 85%;
     }
-
-    /* body {
-        background-color: blue;
-    } */
-
 }
 
-/* Medium devices (landscape tablets, 768px and up) */
+/* Medium devices (landscape tablets) */
 @media only screen and (min-width: 600px) and (max-width: 940px){
     #sidenav {
         width: 25%;
@@ -221,11 +224,10 @@ i {
     #sidenav ul li {
         display: block;
     }
-}
 
-/* Large devices (laptops/desktops, 992px and up) */
-/* @media only screen and (min-width: 992px) {
-    body{
-        background-color: black;
-    }    
-} */
+    #tech-skills {
+        columns: 1;
+        -webkit-columns: 1;
+        -moz-columns: 1;
+    }
+}
